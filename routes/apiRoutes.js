@@ -5,7 +5,7 @@ let ipaddress = "",
     software = "";
 
 //date whoami route
-router.route('/:whoami',)
+router.route('/whoami',)
   .get((req, res) => {
     software = req.header('User-Agent');
     language = req.header('Accept-Language');    

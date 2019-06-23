@@ -14,6 +14,12 @@ app.get('/', function(req, res) {
   res.sendFile(__dirname + '/views/index.html');
 });
 
+//middlewear for errors
+app.use(function (req, res) {
+  res.status(404).send('Page Not Found!!!');
+  res.status(500).send('Something broke!')
+});
+
 // listen for requests :)
 const listener = app.listen(PORT, function() {
   console.log('Your app is listening on port ' + listener.address().port);
