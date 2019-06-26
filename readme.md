@@ -1,4 +1,4 @@
-# request-header-parser-microservice
+# Request Header Parser Microservice
 
 A simple request header parser microservice which returns the IP address, preferred languages and system info for the device which sends the request.
 
