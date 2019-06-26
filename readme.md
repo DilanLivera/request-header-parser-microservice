@@ -2,7 +2,7 @@
 
 A simple request header parser microservice which returns the IP address, preferred languages and system info for the device which sends the request.
 
-This app was built using Express web application framework on [Glitch](https://glitch.com/) platform .
+This app was built using Express web application framework on [Glitch](https://glitch.com/) platform.
 
 [Live Demo](https://jazzy-watchmaker.glitch.me/)
 
